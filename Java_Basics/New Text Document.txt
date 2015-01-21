@@ -1,5 +1,3 @@
-tozi fail e za uprajnenie
-aaaaaaaaaaaaaaaa
-zzzzzzzzzzzzzzz
+se ga ima nov red postavennov fail.1123<<<<<<< .mine=======zzzzzzzzzzzzzzz
 zzzzzzzzzzzzzz
-zzzzzzzzzzzzzzzzzzzz
+zzzzzzzzzzzzzzzzzzzz>>>>>>> .theirs
