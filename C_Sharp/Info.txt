@@ -1,3 +1,6 @@
 My Homework from SoftUni for C#Sharp basics
 
 new task
+
+now is 18.50
+18.52
