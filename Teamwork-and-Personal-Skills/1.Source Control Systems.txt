@@ -13,4 +13,19 @@ Problem 4. Play with SVN
 I checkout my SoftUni repository of my GitHub profile through the SVN client. 
 I make some changes and commit them to GitHub from the SVN.
 
-5. Install Git Client
+Problem 5. Install Git Client
+I install Git GUI Client TortoiseGit
+
+Problem 6. Play with Git
+I clone my repository from GitHub. I make some changes and commit them locally, then
+push them to GitHub.
+
+Problem 7. Merge Conflicting Changes
+I clone my repository GitHub two times in different local directories (git clone). Make some
+conflicting changes in the both local repositories . Commit the changes in the first local repository 
+(git add . followed by git commit), then push them to GitHub (git push).
+I make same with the second repository. At the end I merge the conflicting changes (git pull), them commit
+and push again.
+
+
+
