@@ -11,6 +11,6 @@ I installed TortoiseSVN for Windows.
 
 Problem 4. Play with SVN
 I checkout my SoftUni repository of my GitHub profile through the SVN client. 
-I make some changes and commit them to GitHub from the SVN.
+I make some changes and commit them to GitHub from the SVN.
 
-Problem 5. Install Git Client
+5. Install Git Client
