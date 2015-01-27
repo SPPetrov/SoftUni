@@ -8,7 +8,7 @@ public class Substring_Broken {
         String text = input.nextLine();
         int jump = Integer.parseInt(input.nextLine());
 
-        char search = (int)'p';  // add (int)'p';
+        char search = 'p';
     
         boolean hasMatch = false;
         
