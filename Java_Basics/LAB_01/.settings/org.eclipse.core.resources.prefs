@@ -1,2 +1,8 @@
+<<<<<<< HEAD
 eclipse.preferences.version=1
 encoding//src/Substring_Broken.java=UTF-8
+=======
+eclipse.preferences.version=1
+encoding//src/Substring_Broken.java=UTF-8
+encoding/<project>=UTF-8
+>>>>>>> 0dbbcf074a85553dda51880f3bbea1a3c9ef004c

@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class Substring_Broken {
@@ -8,7 +9,7 @@ public class Substring_Broken {
         String text = input.nextLine();
         int jump = Integer.parseInt(input.nextLine());
 
-        char search = (int)'p';  // add (int)'p';
+        char search = (int)'p'; //cast to int
     
         boolean hasMatch = false;
         
@@ -34,3 +35,4 @@ public class Substring_Broken {
         }
     }
 }
+
