@@ -1,0 +1,55 @@
+#content {
+	background-image: url("./resourse/background-logo.PNG");
+	background-repeat: no-repeat;
+	width: 950px;
+	height: 550px;
+	margin: auto;
+	padding: 10px 20px;
+	font-family: Consolas;
+	font-size: 20px	
+	}
+
+h1 {
+	font-size: 2.5em;
+	color: #F3BE60;
+
+}
+
+
+ul {
+	color: #F3BE60;
+	font-weight: bold;
+}
+
+ul div {
+	
+	width: 90%;
+	margin: 10px 15px;
+	border: solid 1px white;
+	background-color: rgba(61,61,57,0.7)
+
+}
+
+ul div ul {
+	
+	font-size: 18px;
+	color: white;
+
+}
+
+
+
+#content div ul {
+	list-style-type: none;
+	padding-left: 10px
+}
+
+.white-text {
+	color: white;
+	font-weight: normal;
+}
+
+
+#text {
+	margin-left: 25px;
+}

@@ -1,0 +1,169 @@
+table {
+	padding: 8px;
+	background-color: green;
+	border-spacing: 0px;
+	height: 300px;
+	font-family: arial;
+
+} 
+
+thead {
+	background-color: orange;
+}
+
+tbody{
+	font-size: 0.8em;
+}
+
+tbody tr:nth-child(2n) {
+	background-color: lightgrey;
+}
+
+tbody tr:nth-child(2n+1) {
+	background-color: white;
+}
+
+thead tr {
+	height: 40px;
+	font-size: 1.3em;
+	font-weight: bold;
+} 
+
+
+th, td {
+	border: 1px solid black;
+}
+
+tr td:nth-child(1) {
+	text-align: right;
+}
+
+tr td:nth-child(2) {
+	text-align: center;
+}
+
+tr td:nth-child(3) {
+	text-align: left;
+}
+
+tr td:nth-child(4) {
+	text-align: center;
+}
+
+tr td:nth-child(5) {
+	text-align: right;
+	padding-right: 10px;
+}
+
+tr td:nth-child(6) {
+	text-align: center;
+}
+
+tr td:nth-child(7) {
+	text-align: left;
+	padding-left: 10px;
+}
+
+tr td:nth-child(8) {
+	text-align: center;
+}
+
+
+
+tr td:nth-child(2n) {
+	width: 100px;
+}
+
+tr td:nth-child(2n+1) {
+	width: 140px;
+}
+
+tr td:last-of-type {
+	width: 50px;
+}
+
+input {
+	height: 40px;
+	width: 40px;
+border-radius: 100%;
+}
+
+select {
+	height: 35px;
+	width: 35px;
+}
+
+.select-red select {
+	color: red;
+	background-color: #DCDCDC;
+}
+
+.select-green select {
+	color: green;
+	background-color: #FFFFFF;
+}
+
+.bet-red {
+	background-color: red;
+}
+
+.bet-green {
+	background-color: green;
+}
+
+th:first-of-type {
+	border-top-left-radius: 15px;
+}
+
+th:last-of-type{
+	border-top-right-radius: 15px;
+}
+
+tr:last-child td:first-of-type {
+	border-bottom-left-radius: 15px;
+}
+
+tr:last-child td:last-of-type{
+	border-bottom-right-radius: 15px;
+}
+
+
+#img_Argentina:after {
+	content: url("./img/Argentina.PNG");
+}
+
+#img_Brasil:after {
+	content: url("./img/Brasil.PNG");
+}
+
+#img_Spain:after {
+	content: url("./img/Spain.PNG");
+}
+
+#img_Germany:after {
+	content: url("./img/Germany.PNG");
+}
+
+#img_Italy:after {
+	content: url("./img/Italy.PNG");
+}
+
+#img_Mexico:before {
+	content: url("./img/Mexico.PNG");
+}
+
+#img_Netherlands:before {
+	content: url("./img/Netherlands.PNG");
+}
+
+#img_Portugal:before {
+	content: url("./img/Portugal.PNG");
+}
+
+#img_England:before {
+	content: url("./img/England.PNG");
+}
+#img_Bosnia:before {
+	content: url("./img/Bosnia.PNG");
+}
+
