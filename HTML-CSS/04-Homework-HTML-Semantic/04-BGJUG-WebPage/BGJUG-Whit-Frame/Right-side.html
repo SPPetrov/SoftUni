@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Right side</title>
+	<style>
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	font-family: Arial;
+	font-size: 16px;
+	width: 200px;
+	margin-left: 0px;
+
+}
+
+aside.right-side {
+	margin-left: 10px;
+	font-size: 0.9em;
+}
+
+.right-side label, .right-side p {
+	border-bottom: 2px solid grey;
+	padding-bottom: 5px;
+	padding-top: 35px;
+	color: grey;
+	margin-bottom: 10px;
+	width: 180px;
+	float: left;
+}
+
+	</style>
+</head>
+<body>
+	<aside class="right-side">
+		<label for="lang">LANGUAGE</label>
+		<select id="lang">
+		  <option value="En">English</option>
+		  <option value="Bg" selected="selected">Bulgarian</option>
+		</select>
+		<p>BLOGROLL</p>
+	</aside>
+</body>
+</html>

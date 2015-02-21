@@ -1,0 +1,185 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	font-family: Arial;
+	font-size: 16px;
+	margin-left: 55px;
+	width: 1050px;
+}
+
+body>header {
+	height: 195px;
+	border-bottom: 3px solid grey;
+	margin-right: 25px;
+}
+
+header>form>input {
+
+	width: 200px;
+	height: 25px;
+}
+
+body header h1 {
+	padding-left: 25px;
+	padding-top: 25px;
+	padding-bottom: 55px;
+}
+
+body header nav ul {
+	padding-top: 40px;
+}
+
+body header nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	margin-left: 5px;
+	margin-right: 35px;
+	float: left;
+}
+
+
+body header form {
+	float: right;
+}
+
+body header form button {
+	width: 28px;
+	height: 29px;
+	padding-bottom: 8px;
+	margin-left: -4px;
+	background-image: url("../resourse/search.PNG");
+}
+
+aside.left-side {
+	width: 170px;
+	margin-top: 100px;
+	border-top: 2px solid grey;
+	float: left;
+}
+
+body aside ul li {
+	list-style-type: none;
+	padding-top: 10px;
+}
+
+body aside ul li a{
+	text-decoration: none;
+	color: blue;
+}
+
+aside.right-side {
+	margin-left: 850px;
+	float: left;
+	margin-top: -285px;
+	display: block;
+	font-size: 0.9em;
+}
+
+.right-side label, .right-side p {
+	border-bottom: 2px solid grey;
+	padding-bottom: 5px;
+	color: grey;
+	margin-bottom: 0px;
+	width: 180px;
+	float: left;
+}
+
+#lang {
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+
+main {
+	padding-top: 50px;
+	margin-left: 200px;
+	width: 500px;
+	height: 520px;
+	
+
+}
+
+main div {
+	border-top: 2px solid grey;
+	padding-top: 50px;
+}
+
+main div p a {
+	text-decoration: none;
+	color:blue;
+}
+#twitter {
+	
+	padding: 10px;
+	padding-left: 40px;
+	background-color: #F7F7F7;
+	
+}
+
+#twitter dfn:before {
+	content: url("../resourse/twitter.PNG");
+}
+
+article header p {
+	font-size: 0.75em;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	color: grey;
+} 
+
+article header a {
+	color: grey;
+}
+
+article footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+article footer a {
+	text-decoration: none;
+	color: blue;
+	font-size: 0.9em;
+}
+
+#footer-wrapper {
+	height: 180px;
+	border: 2px solid black;
+	background-color: black;
+	color:white;
+}
+
+#footer-wrapper div {
+	width: 170px;
+	padding-left: 30px;
+	float: left;
+	padding-top: 20px;
+}
+
+#footer-wrapper div ul {
+	list-style-type: none;
+}
+
+#footer-wrapper div ul li a {
+	text-decoration: none;
+	color:white;
+	font-size: 0.9em;
+}
+
+#footer-wrapper div h4 {
+	margin-bottom: 10px;
+	font-size: 0.9em;
+}
+
+#footer-wrapper p {
+	font-size: 0.9em;
+	opacity: 0.5;
+}
+
+
+
+
+
+
