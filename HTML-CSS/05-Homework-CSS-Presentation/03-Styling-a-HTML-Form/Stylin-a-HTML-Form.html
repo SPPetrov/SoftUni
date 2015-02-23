@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Styling a HTML Form</title>
+	<link rel="stylesheet" href="./Style/style.css">
+</head>
+<body>
+	<div id="wrapper">
+		<form action="#">
+			<fieldset>
+				<legend>Step 1: Your Details</legend>
+				<div class="section">
+					<label for="name">Name</label>
+					<input type="text" id="name" name="name" required placeholder="First and last name" autofocus>
+				</div>
+				<div class="section">
+					<label for="email">Email</label>
+					<input type="email" id="email" name="email" required placeholder="example@domain.com" autofocus>			
+				</div>
+				<div class="section">
+					<label for="tel">Phone</label>
+					<input type="tel" id="tel" name="tel" required placeholder="eg. +447500000000" autofocus>
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Step 2: Delivery address</legend>
+				<div class="section address">
+					<label for="address">Address</label>
+					<textarea name="address" id="address" autofocus></textarea>
+				</div>
+				<div class="section">
+					<label for="post-code">Post code</label>
+					<input type="text" id="post-code" autofocus>
+				</div>
+				<div class="section">
+					<label for="country">Country</label>
+					<input type="text" id="country" autofocus>
+				</div>
+			</fieldset>
+			<fieldset>
+				<legend>Step 3: Card details</legend>
+				<div class="section-radio">
+					<p>Card type</p>
+					<div id="visa-section">
+						<input type="radio" name="radio-button"id="visa" autofocus>
+						<div id="visa-logo"></div>
+						<label for="visa">VISA</label>
+					</div>
+					<div id="amex-section">
+						<input type="radio" name="radio-button"id="amex" autofocus>
+						<div id="amex-logo"></div>
+						<label for="amex">AmEx</label>
+					</div>
+					<div id="mastercard-section">
+						<input type="radio" name="radio-button"id="mastercard" autofocus>
+						<div id="maste-logo"></div>
+						<label for="mastercard">Mastercard</label>
+					</div>
+				</div>
+				<div class="section">
+					<label for="card">Card number</label>
+					<input type="text" id="card" autofocus>
+				</div>
+				<div class="section">
+					<label for="password-card">Security code</label>
+					<input type="password" id="password-card" autofocus>
+				</div>
+				<div class="section">
+					<label for="name-card">Name of card</label>
+					<input type="text" id="name-card" autofocus>
+				</div>
+			</fieldset>
+			<input type="submit" value="BUY IT!">
+		</form>
+	</div>
+</body>
+</html>
