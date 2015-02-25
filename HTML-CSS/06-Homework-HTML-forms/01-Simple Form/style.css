@@ -1,0 +1,153 @@
+* {
+
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+
+.wrapper {
+	
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 475px;
+	height: 265px;
+	background-color: #D8D8D8;
+	color: grey;
+}
+
+h1 {
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-top: 5px;
+	color: #0C3272;
+	
+} 
+
+
+.wrapper>p {
+	font-size: 10px;
+	
+	padding-left: 10px;
+	padding-top: 10px;
+	color: #949494;
+	
+}
+
+span {
+	color: #0C3272;
+
+}
+
+.register, .login {
+	font-size: 11px;
+	font-weight: bold;
+
+
+} 
+
+div.register {
+
+	width: 200px;
+	margin-left: 18px;
+	margin-top: 22px;
+	float: left;
+	
+
+}
+
+input {
+	height: 21px;
+	width: 185px;
+	margin-top: 6px;
+	font-size: 11px;
+	padding-left: 6px;
+}
+
+.login input {
+	width: 201px;
+
+}
+
+.register input[type="submit"] {
+	margin-left: 90px;
+	width: 105px;
+	height: 24px;
+	border-color: #0C3272;
+	background-color: #D8D8D8;
+	color: #0C3272;
+}
+
+.register input[type="submit"]:hover {
+	cursor: pointer;
+	-webkit-transition: all .5s ease;
+	   -moz-transition: all .5s ease;
+	    -ms-transition: all .5s ease;
+	     -o-transition: all .5s ease;
+	        transition: all .5s ease;
+	outline: none;
+	color: white;
+	
+	background-color: #0C3272;
+
+}
+
+div.login {
+	
+	width: 220px;
+	height: 163px;
+	margin-left: 10px;
+	margin-top: 22px;
+	padding-top: 5px;
+	padding-left: 8px;
+	float: left;
+	background-color: #0C3272;
+	color: white;
+}
+
+.login input[type="checkbox"] {
+	margin-top: 10px;
+	width: 15px;
+	height: 15px;
+	float: left;
+}
+
+.login label {
+	font-weight: normal;
+	padding-left: 5px;
+	float: left;
+	margin-top: 8px;
+
+
+}
+
+.login input[type="submit"] {
+	margin-left: 21px;
+	margin-top: 8px;
+	width: 95px;
+	height: 24px;
+	border-color: orange;
+	float: left;
+	background-color: #0C3272;
+	color: white;
+	outline: none;
+}
+
+.login input[type="submit"]:hover {
+	cursor: pointer;
+	-webkit-transition: all .5s ease;
+	   -moz-transition: all .5s ease;
+	    -ms-transition: all .5s ease;
+	     -o-transition: all .5s ease;
+	        transition: all .5s ease;
+	background-color: orange
+}
+
+a { 
+	float: right;
+	font-size: 10px;
+	font-weight: normal;
+	margin-right: 12px;
+	margin-top: 5px;
+	color: white;
+}

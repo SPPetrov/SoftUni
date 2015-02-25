@@ -1,0 +1,132 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	font-family: Tahoma, sans-serif;
+	font-size:14px; 
+}
+
+#wrapper {
+	margin-left: 20px;
+	margin-top: 20px;
+	width: 540px;
+	height: 425px;
+	min-width: 200px;
+	background: #00008C;
+	color: white;
+
+}
+
+h1, h2, p {
+	text-align: center;
+	padding-bottom: 10px;
+}
+h1 {
+	font-size: 5em;
+}
+
+h1>span {
+	font-size: 20px;
+}
+
+p {
+	padding-bottom: 15px;
+	font-weight: bold;
+}
+
+
+div#left-side {
+	width: 200px;
+	margin-left:12px;
+	float: left;
+
+}
+
+div#right-side {
+	width: 300px;
+	margin-left:12px;
+	float: left;
+}
+
+fieldset {
+	padding-left: 10px;
+	padding-top: 10px;
+	font-size: 12px;
+	border-radius: 10px;
+	height: 190px;
+}
+
+
+input {
+	width: 78px;
+	margin-bottom: 5px;
+	border-radius: 4px;
+	font-size: 11px;
+	padding: 2px;
+}
+
+
+input[type="date"] {
+	width: 155px;
+	margin-top: 5px;
+	
+}
+
+input[type="radio"] {
+	width: 15px;
+	margin-right:0px;
+	
+}
+
+#nr, #ap, #flor {
+	width: 40px;
+}
+
+input[type="color"] {
+	height: 17px;
+	margin-top: 10px;
+}
+
+textarea {
+	margin-top: 10px;
+	width: 265px;
+	word-wrap:break-word;
+}
+
+
+input[type="reset"], input[type="submit"] {
+	width: 200px;
+	height: 40px;
+	font-weight: bold;
+	font-size: 14px;
+	border-radius: 8px;
+	color: #00008C;
+	background: #939685;
+	margin-top: 10px;
+	outline:none;
+
+}
+
+input[type="submit"] {
+	width: 300px;
+}
+
+input[type="submit"]:hover {
+	cursor: pointer;
+	background-color: #00008C;
+	color: #939685;
+}
+
+
+input[type="reset"] {
+	position: absolute;
+	left:30px;
+}
+
+input[type="reset"]:hover {
+	cursor: pointer;
+	background-color: #00008C;
+	color: #939685;
+}

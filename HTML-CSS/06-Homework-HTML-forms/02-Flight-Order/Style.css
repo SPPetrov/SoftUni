@@ -1,0 +1,149 @@
+﻿body {
+    font-family:Tahoma;
+    font-size:11px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.wrapper {
+    margin-top:10px;
+    margin-left:10px;
+    width: 300px;
+    height:215px;
+    background-color:#FFC0CB;
+}
+
+h1 {
+    font-style:italic;
+    margin: 5px 55px;
+}
+
+div.left-side {
+    
+    float:left;
+    width:148px;
+    box-sizing:border-box;
+    padding-left:5px;
+    font-size:9px;
+    font-style:italic;
+}
+
+
+
+div.right-side {
+  
+    float:left;
+    width:148px;
+    box-sizing:border-box;
+    font-size:9px;
+    font-style:italic;
+    padding-left:5px;
+    height:143px;
+    
+}
+
+#from, #to, #class, input[type="date"] {
+    width: 135px;
+    height:13px;
+    margin-top:4px;
+    margin-bottom:3px;
+
+}
+
+#class {
+    height:18px;
+    width:138px;
+    margin:0px;
+
+}
+
+#from {
+    margin-bottom:12px;
+}
+
+input[type="checkbox"] {
+    float:left;
+    height:9px;
+    margin-left:2px;
+    position:absolute;
+    top:76px;
+}
+
+label[for="direct"] {
+    padding-left:15px;
+   
+}
+
+label[for="time-d1"],  label[for="time-r1"]{
+    
+    display:block;
+}
+
+#time-d1, #time-d2, #time-r1, #time-r2 {
+    width:62px;
+    height:13px;
+    margin-left:2px;
+    float:left;
+    display:inline;
+    margin-top:2px;
+    margin-bottom:5px;
+    font-size:12px;
+}
+
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: black;
+    font-family: sans-serif;
+    text-indent: 3px;
+    font-size:12px;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: black;
+   font-family: sans-serif;
+   text-indent: 3px;
+   font-size:12px;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: black;
+   font-family: sans-serif;
+   text-indent: 3px;
+   font-size:12px;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color: black;
+   font-family: sans-serif;
+   text-indent: 3px;
+   font-size:12px;
+}
+
+
+.age {
+    float:left;
+    padding-right:30px;
+    
+}
+
+input[type="number"] {
+    width:39px;
+    float:left;
+    margin-top:3px;
+    margin-right:4px;
+    height: 10px;
+    font-size:11px;
+}
+
+
+
+
+input[type="submit"]{
+    width:138px;
+    float:right;
+    margin-top:8px;
+    margin-right:10px;
+}
+
+
+
