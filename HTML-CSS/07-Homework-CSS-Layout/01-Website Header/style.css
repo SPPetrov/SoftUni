@@ -54,7 +54,7 @@ ul li a {
 }
 
 
-.nav ul li:hover, .user ul li:hover {
+.nav ul li:hover {
 	
 	background-color: #7979FF;
 	border-radius: 5px;

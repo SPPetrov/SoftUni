@@ -59,18 +59,10 @@ section p{
 	line-height: 25px;
 }
 
-date {
-	float: right;
+p.date {
+	text-align: right;
+
 }
-
-.date::after{
-	clear: both;
-	display: block;
-	height: 0;
-	content: "";
-}
-
-
 
 footer {
 	height: 100px;
