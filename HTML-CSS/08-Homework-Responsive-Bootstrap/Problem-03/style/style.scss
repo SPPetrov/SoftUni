@@ -1,0 +1,25 @@
+body>* {
+	color:black !important;
+}
+
+ul li, a {
+	background-color: green;
+}
+.navbar-inverse .navbar-nav>.active>a { 
+		background-color: lightgreen;
+	}
+ul li a:hover {
+	background-color: lightgreen;
+}
+
+.active {
+	background-color:lightgreen !important;
+		/* style */
+}
+
+#footer {
+	margin-top:30px;
+}
+	
+
+	
